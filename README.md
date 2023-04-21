@@ -4,7 +4,7 @@ This is a redesign of the Checkpoint Japan website built using React.js and Next
 
 ## Acknowledgements
 
-React.js
-Next.js
-WordPress REST API
-[Iconoir](https://iconoir.com/) for icons
+⋅⋅* React.js
+⋅⋅* Next.js
+⋅⋅* WordPress REST API
+⋅⋅* [Iconoir](https://iconoir.com/) for icons
