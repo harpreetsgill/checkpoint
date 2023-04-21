@@ -1,6 +1,6 @@
 import styles from "./Article.module.css";
 
-export default function ({ className, data }) {
+export default function Article({ className, data }) {
   return (
     <article
       className={`${className} ${styles.article}`}

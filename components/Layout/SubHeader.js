@@ -3,7 +3,7 @@ import styles from "./SubHeader.module.css";
 import Sort from "../UI/Sort";
 import Search from "../UI/Search";
 
-export default function (props) {
+export default function SubHeader (props) {
   const router = useRouter();
   let subHeaderContent = (
     <>

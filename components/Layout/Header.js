@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 import Link from "next/link";
 import Navigation from "../UI/Navigation";
 
-export default function ({ className }) {
+export default function Header ({ className }) {
   const router = useRouter();
   const isNotHomePage = router.route !== "/";
 
