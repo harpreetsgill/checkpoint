@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { extractYTVideoId } from "@/lib/functions";
 import styles from "./YouTubeEmbed.module.css";
-import Image from "next/image";
 
 export default function YouTubeEmbed({
   className,
@@ -43,7 +42,7 @@ export default function YouTubeEmbed({
   return (
     <div ref={divRef} className={`${className} ${styles.video}`}>
       <i onClick={videoEmbedHandler} className={styles.play} />
-      <Image
+      <img
         onClick={videoEmbedHandler}
         loading="lazy"
         src={`https://img.youtube.com/vi/${videoId}/${thumbnailQuality}.jpg`}
