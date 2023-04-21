@@ -1,0 +1,30 @@
+.search {
+  position: relative;
+}
+
+.search input {
+  color: #fff;
+  background-color: transparent;
+  border: 0.5px solid #fff;
+  padding: 6px 30px 6px 12px;
+  border-radius: 15px;
+  font-size: 1em;
+  width: 100%;
+}
+
+.search input:active,
+.search input:focus-visible {
+  border: 0.5px solid #fff;
+  outline: none;
+}
+
+.search button {
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 0 15px 15px 0;
+}

@@ -1,0 +1,30 @@
+.title {
+  margin-right: 3px;
+}
+
+.sortForm label {
+  position: relative;
+  padding-left: 22px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.sortForm input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.sortForm input:checked ~ .customRadio {
+  background-color: #fff;
+}
+
+.customRadio {
+  position: absolute;
+  left: 8px;
+  top: 3px;
+  background-color: #000;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}

@@ -1,0 +1,51 @@
+.thumbnail {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+}
+
+.thumbnail img {
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.text {
+  display: none;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text h2 {
+  font-size: 1.8em;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.text time,
+.text .price {
+  display: block;
+  opacity: 0.5;
+}
+
+.thumbnail:hover img {
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.thumbnail:hover .text {
+  display: flex;
+  transition: all 0.25s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .thumbnail:nth-child(odd) {
+    grid-column: 1 / 3;
+  }
+  .thumbnail:nth-child(even) {
+    grid-column: 3 / 5;
+  }
+}

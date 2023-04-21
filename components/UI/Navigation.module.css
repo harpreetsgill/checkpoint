@@ -1,0 +1,48 @@
+.nav a {
+  display: block;
+  margin-top: 3px;
+  position: relative;
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.5px solid #fff;
+  border-radius: 20px;
+  padding: 6px 30px 6px 14px;;
+}
+.nav a:hover,
+.nav a.active {
+  color: #000;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav a::before {
+  content: "";
+  width: 0.85px;
+  height: 6px;
+  background-color: #fff;
+  position: absolute;
+  right: 14px;
+  top: 8.4px;
+  transform: rotate(-45deg);
+  border-radius: 3px;
+}
+.nav a::after {
+  content: "";
+  width: 0.85px;
+  height: 6px;
+  background-color: #fff;
+  position: absolute;
+  right: 14px;
+  bottom: 8.4px;
+  transform: rotate(45deg);
+  border-radius: 3px;
+}
+
+.nav a:hover::before,
+.nav a:hover::after,
+.nav a.active::before,
+.nav a.active::after {
+  background-color: #000;
+}

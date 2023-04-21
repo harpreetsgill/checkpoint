@@ -1,0 +1,47 @@
+.header {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo a {
+  display: inline-block;
+}
+
+.header h1 {
+  grid-column: 2 / 4;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.nav {
+  grid-column: 6 / 7;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    grid-column: 2 / 4;
+  }
+  .nav {
+    grid-column: 4 / 5;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    align-items: end;
+  }
+}
+
+@media (max-width: 475px) {
+  .header h1 {
+    grid-column: 1 / 5;
+    grid-row: 2;
+  }
+  .nav {
+    grid-column: 3 / 5;
+  }
+}
