@@ -6,7 +6,7 @@ import YouTubeEmbed from "@/components/UI/YouTubeEmbed";
 import styles from "./index.module.css";
 import Thumbnail from "@/components/UI/Thumbnail";
 
-export default function ({ postData, authorData }) {
+export default function PostPage({ postData, authorData }) {
   const title = postData.title;
 
   const subHeaderData = {

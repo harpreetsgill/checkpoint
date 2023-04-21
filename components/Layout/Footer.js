@@ -21,7 +21,7 @@ export default function Footer(props) {
         </a>
       </div>
       <div className={styles.rules}>
-        <p>Don't forget to break the rules</p>
+        <p>Don&apost forget to break the rules</p>
       </div>
     </footer>
   );
