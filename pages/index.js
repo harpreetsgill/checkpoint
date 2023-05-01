@@ -137,7 +137,7 @@ export async function getStaticProps() {
       slug: "https://checkpointjapan.bigcartel.com/product/jdm-taxi-window-lantern-12v",
       price: "75.00",
       image: {
-        url: "https://assets.bigcartel.com/product_images/357560053/017A2680.jpg",
+        url: "https://assets.bigcartel.com/product_images/357559636/017A2658.jpg",
         height: "300",
         width: "400",
       },
