@@ -59,7 +59,7 @@ export default function Home({ items }) {
               key={item.id}
               className={`${
                 visibilitySettings.itemType === item.type ? "hidden" : ""
-              }`}
+              } ${styles[item.type]}`}
               data={item}
               visibility={visibilitySettings}
             />
